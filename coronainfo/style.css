@@ -14,6 +14,7 @@ body {
 h1 {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
+    margin: 50px auto;
 }
 
 div#info {
@@ -21,8 +22,7 @@ div#info {
     margin: auto;
 }
 div#info div#intro {
-    width: fit-content;
-    margin: auto;
+    margin-bottom: 60px;
 }
 div#info div#intro h3 {
     font-size: 23px;
