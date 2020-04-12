@@ -4,40 +4,37 @@ html {
 }
 body {
     margin: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
     background-color: #59c3b1; /* in case gradients not supported */
     background-image: linear-gradient(to top right, #59c3b1, #e7d093);
     background-attachment: fixed;
 }
 
+
 h1 {
     text-align: center;
+    font-family: 'Press Start 2P', cursive;
 }
 
-div#credits {
+div#info {
+    width: 60%;
+    margin: auto;
+}
+div#info div#intro {
     width: fit-content;
-    border: 5px solid gold;
     margin: auto;
-    margin-top: 60px;
 }
-div#credits h2 {
-    text-align: center;
-    font-size: 15px;
-    padding: 10px 35px;
+div#info div#intro h3 {
+    font-size: 23px;
 }
-
+div#info div#intro p {
+    font-size: 18px;
+}
 a {
-    font-size: 17px;
-    display: block;
-    color: white;
+    color: blue;
     text-decoration: none;
-    width: 415px;
-    text-align: center;
-    margin: auto;
-    margin-top: 20px;
-    background-color: gold;
-    padding: 15px;
 }
 a:hover {
-    background-color: rgb(255, 230, 85);
+    color: blue;
+    text-decoration: underline;
 }

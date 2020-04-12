@@ -1,11 +1,13 @@
+/* Created By David Zhan and Michael Liu for the TitanHacks 2020 Hackathon */
 html {
     height: 100%;
 }
 body {
     margin: 0;
     font-family: 'Press Start 2P', cursive;
-    background-color: #59c3b1; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to top right, #59c3b1, #e7d093); /* Standard syntax (must be last) */
+    background-color: #59c3b1; /* in case gradients not supported */
+    background-image: linear-gradient(to top right, #59c3b1, #e7d093);
+    background-attachment: fixed;
 }
 
 h1#title {
@@ -18,6 +20,16 @@ h1#title {
 span {
     color: white;
     background-color: black;
+}
+
+div#error {
+    width: 800px;
+    text-align: center;
+}
+div#error h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: red;
 }
 
 div#instructions {
@@ -190,4 +202,10 @@ div#livingroom {
     right: 0;
     bottom: 0;
     background-color: darkkhaki;
+}
+
+div#repCounter h6 {
+    margin: 0;
+    font-size: 20px;
+    padding: 5px;
 }
