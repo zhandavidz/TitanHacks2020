@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #59c3b1; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to top right, #59c3b1, #e7d093); /* Standard syntax (must be last) */
+}
+
+h1 {
+    text-align: center;
+}
+
+
+a {
+    font-size: 17px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 415px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: gold;
+    padding: 15px;
+}
+a:hover {
+    background-color: rgb(255, 230, 85);
+}

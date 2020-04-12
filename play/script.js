@@ -31,6 +31,8 @@ $(document).keypress(function () {
             x += MOVE_AMT;
         }
         else if (x == 650 && scene == 2) {
+            
+
             scene++;
             x = 600;
             $("div#scene").css("background-color", "darkkhaki");
