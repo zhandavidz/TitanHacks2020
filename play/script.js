@@ -48,7 +48,7 @@ $(document).keypress(function () {
             // mask
             if (220 <= x && x <= 370) {
                 $("img#mask").hide();
-                $("img#player").attr("src", "img/player/mask.png");
+                $("img#player").attr("src", "beat-coronavirus/img/player/mask.png");
             }
             // door
             else if (500 <= x && x <= 650) {
