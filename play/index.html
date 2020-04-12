@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Beat Coronavirus!</title>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+	<h1 id="title">BEAT CORONAVIRUS!</h1>
+
+	<div id="scene">
+		<img id="player" src="/img/player/default.png"></img>
+
+        <div id="window1" class="scene1 windows"></div>
+        <div id="window2" class="scene1 windows"></div>
+        <img id="table" class="scene1" src="/img/table.png"></img>
+        <img id="mask" class="scene1" src="/img/mask.png"></img>
+        <img id="door" class="scene1" src="/img/door.png"></img>
+
+        <img id="shelf" class="scene2" src="/img/shelf.png" style="display: none;"></img>
+        <img class="scene2 tp row3" src="/img/toilet-paper.png" style="display: none;"></img>
+        <img class="scene2 tp row2" src="/img/toilet-paper.png" style="display: none;"></img>
+        <img class="scene2 tp row1" src="/img/toilet-paper.png" style="display: none;"></img>
+        <img class="scene2 water row3" src="/img/water.png" style="display: none;"></img>
+        <img class="scene2 water row2" src="/img/water.png" style="display: none;"></img>
+        <img class="scene2 water row1" src="/img/water.png" style="display: none;"></img>
+        <img class="scene2 candy row3" src="/img/candy.png" style="display: none;"></img>
+        <img class="scene2 candy row2" src="/img/candy.png" style="display: none;"></img>
+        <img class="scene2 candy row1" src="/img/candy.png" style="display: none;"></img>
+        <img class="scene2 apple row3" src="/img/apple.png" style="display: none;"></img>
+        <img class="scene2 apple row2" src="/img/apple.png" style="display: none;"></img>
+        <img class="scene2 apple row1" src="/img/apple.png" style="display: none;"></img>
+        <img class="scene2 soap row3" src="/img/soap.png" style="display: none;"></img>
+        <img class="scene2 soap row2" src="/img/soap.png" style="display: none;"></img>
+        <img class="scene2 soap row1" src="/img/soap.png" style="display: none;"></img>
+        <img class="scene2 firstaid row3" src="/img/firstaid.png" style="display: none;"></img>
+        <img class="scene2 firstaid row2" src="/img/firstaid.png" style="display: none;"></img>
+        <img class="scene2 firstaid row1" src="/img/firstaid.png" style="display: none;"></img>
+        <img id="right-arrow" class="scene2" src="/img/right-arrow.png" style="display: none;"></img>
+        <img id="left-arrow" class="scene3" src="/img/left-arrow.png" style="display: none;"></img>
+        <img id="sink" class="scene4" src="/img/sink.png" style="display: none;"></img>
+        <img id="toilet" class="scene4" src="/img/toilet.png" style="display: none;"></img>
+        <div id="wall" class="scene4"></div>
+        <div id="livingroom" class="scene4"></div>
+        <div id="window3" class="scene4 windows"></div>
+        <div id="repCounter" style="display: none;">
+            <h6></h6>
+        </div>
+    </div>
+
+    <div id="instructions">
+        <h4 id="task">TASK:</h4>
+        <p id="task1" class="scene1">Wear the mask with <span>SPACE</span> and leave you house to go shopping with SPACE at the door.</p>
+        <p id="task2" class="scene2" style="display: none;">Buy what you need with <span>SPACE</span>, but don't take everything! When you're done, head right to checkout.</p>
+        <p id="task3" class="scene3" style="display: none;">Go *right* to the bathroom.</p>
+        <p id="task4" class="scene4" style="display: none;">Go to the sink and use <span>SPACE</span> to add soap.</p>
+        <p id="task5" class="scene5" style="display: none;">Press <span>Q</span> and <span>P</span> repeatedly 20 times each to wash your hands.</p>
+        <h4 id="winMessage" class="scene6" style="display: none; margin-bottom: 0;">Congratulations. You have taken your first steps to help fight coronavirus. Press any key or click anywhere to learn more on how you can continue to prevent coronavirus.</h4>
+        <h4 class="controls" >CONTROLS:</h4>
+        <p class="controls">Use <span>A</span> and <span>D</span> to move left and right.</p>
+    </div>
+
+</body>
+
+
+	<!-- <script type="text/javascript" src="moveAnimations.js"></script> -->
+	<script type="text/javascript" src="script.js"></script>
+
+</html>
